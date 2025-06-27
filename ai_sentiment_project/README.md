@@ -25,13 +25,15 @@ python -m venv venv
 venv\Scripts\activate  
 ```
 **2. Install dependencies:**
-
+```bash
 pip install -r requirements.txt
-
+```
 **3. Training the model:**
 
 Run this command to train and save the model:
+```bash
 python train.py
+```
 
 It will:
 
@@ -66,14 +68,3 @@ json
 }
 4. Example API response:
 
-
-Project Structure
-
-.
-├── train.py            # Train & save the model
-├── predict.py          # CLI-based sentiment prediction
-├── app.py              # FastAPI web server
-├── requirements.txt    # Dependencies
-├── model/
-│   ├── model.pkl       # Trained model
-│   └── tfidf.pkl       # TF-IDF vectorizer

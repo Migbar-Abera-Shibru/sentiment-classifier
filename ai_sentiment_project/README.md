@@ -50,13 +50,16 @@ Save the model and TF-IDF vectorizer to the model/ folder
 
 
 Predict from FastAPI
+
 **1. Start the API server:**
 
 uvicorn app:app --reload
+
 **2. Open the interactive docs in browser:**
 
 http://127.0.0.1:8000/docs
-**3. Example JSON body: **
+
+**3. Example JSON body:**
  ![App Demo](images/fastapi1.png)
 
 ```json
@@ -66,6 +69,7 @@ http://127.0.0.1:8000/docs
 }
 
 ```
-4. Example API response:
+
+**Example API response:**
  ![App Demo](images/fastapi2.png)
 

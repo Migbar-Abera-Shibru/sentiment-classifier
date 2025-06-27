@@ -40,11 +40,11 @@ It will:
 Download and preprocess 5,000 IMDb samples
 
 **4. Train a logistic regression model**
-
+ ![App Demo](images/train.png)
 Save the model and TF-IDF vectorizer to the model/ folder
 
 **5. Predict from CLI*
- ![App Demo](images/train.png)
+
 
 
 

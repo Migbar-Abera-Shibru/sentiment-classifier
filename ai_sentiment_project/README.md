@@ -10,17 +10,17 @@ This project is a simple yet production-ready sentiment analysis pipeline built 
 
 ## 📦 Features
 
-✅ Train a Logistic Regression model on IMDb reviews  
-✅ Use TF-IDF to vectorize text  
-✅ Predict sentiment from command-line OR HTTP API  
-✅ Save and load models with `joblib`
+ Train a Logistic Regression model on IMDb reviews  
+ Use TF-IDF to vectorize text  
+ Predict sentiment from command-line OR HTTP API  
+ Save and load models with `joblib`
 
 ---
 
-## 🧰 Installation
+## Installation
 
 **1. Create a virtual environment (recommended):**
-```bash
+
 python -m venv venv
 venv\Scripts\activate  
 

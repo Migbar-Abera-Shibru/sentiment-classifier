@@ -1,0 +1,24 @@
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints (just in case)
+.ipynb_checkpoints/
+
+# Ignore model artifacts if needed (optional)
+*.pkl
+*.joblib
+
+# Ignore virtual environment folders
+venv/
+env/
+ENV/
+
+# Ignore VSCode config (if you're using it)
+.vscode/
+
+# Ignore datasets/cache if you download anything locally
+cache/
+*.dataset-cache/

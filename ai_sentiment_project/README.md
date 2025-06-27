@@ -45,6 +45,7 @@ Save the model and TF-IDF vectorizer to the model/ folder
 
 ** 5. Predict from CLI **
 
+ ![App Demo](images/test.png)
 
 
 
@@ -56,7 +57,7 @@ uvicorn app:app --reload
 
 http://127.0.0.1:8000/docs
 **3. Example JSON body: **
- ![App Demo](images/fastapi1)
+ ![App Demo](images/fastapi1.png)
 
 ```json
 
@@ -66,5 +67,5 @@ http://127.0.0.1:8000/docs
 
 ```
 4. Example API response:
- ![App Demo](images/fastapi2)
+ ![App Demo](images/fastapi2.png)
 

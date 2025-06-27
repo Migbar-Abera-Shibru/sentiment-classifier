@@ -1,4 +1,4 @@
-# 🎯 Sentiment Classifier – Python AI Engineer Mini-Project
+# Sentiment Classifier – Python AI Engineer Mini-Project
 
 This project is a simple yet production-ready sentiment analysis pipeline built with:
 - **Scikit-learn** for machine learning
@@ -39,11 +39,11 @@ It will:
 
 Download and preprocess 5,000 IMDb samples
 
-**4. Train a logistic regression model**
+**Train a logistic regression model**
  ![App Demo](images/train.png)
 Save the model and TF-IDF vectorizer to the model/ folder
 
-** 5. Predict from CLI **
+**5. Predict from CLI**
 
  ![App Demo](images/test.png)
 

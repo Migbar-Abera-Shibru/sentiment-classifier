@@ -44,7 +44,7 @@ Download and preprocess 5,000 IMDb samples
 Save the model and TF-IDF vectorizer to the model/ folder
 
 **5. Predict from CLI*
- ![App Demo](images/Screenshot 2025-06-27 195434.png)
+ ![App Demo](images/)
 
 
 

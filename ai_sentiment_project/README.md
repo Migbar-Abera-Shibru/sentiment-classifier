@@ -20,10 +20,10 @@ This project is a simple yet production-ready sentiment analysis pipeline built 
 ## Installation
 
 **1. Create a virtual environment (recommended):**
-
+```bash
 python -m venv venv
 venv\Scripts\activate  
-
+```
 **2. Install dependencies:**
 
 pip install -r requirements.txt

@@ -43,26 +43,28 @@ Download and preprocess 5,000 IMDb samples
  ![App Demo](images/train.png)
 Save the model and TF-IDF vectorizer to the model/ folder
 
-**5. Predict from CLI*
+** 5. Predict from CLI **
 
 
 
 
 Predict from FastAPI
-1. Start the API server:
+**1. Start the API server:**
 
 uvicorn app:app --reload
-2. Open the interactive docs in browser:
-
-arduino
+**2. Open the interactive docs in browser:**
 
 http://127.0.0.1:8000/docs
-3. Example JSON body:
+**3. Example JSON body: **
+ ![App Demo](images/fastapi1)
 
-json
+```json
 
 {
   "review": "This movie was a waste of time."
 }
+
+```
 4. Example API response:
+ ![App Demo](images/fastapi2)
 

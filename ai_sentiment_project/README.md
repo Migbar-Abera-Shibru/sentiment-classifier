@@ -8,7 +8,7 @@ This project is a simple yet production-ready sentiment analysis pipeline built 
 
 ---
 
-## 📦 Features
+##  Features
 
  Train a Logistic Regression model on IMDb reviews  
  Use TF-IDF to vectorize text  
@@ -44,10 +44,8 @@ Download and preprocess 5,000 IMDb samples
 Save the model and TF-IDF vectorizer to the model/ folder
 
 **5. Predict from CLI*
- 
-You can run predictions directly from terminal:
+ ![App Demo](images/demo.png)
 
-python predict.py "I loved this movie so much!"
 
 
 Predict from FastAPI
